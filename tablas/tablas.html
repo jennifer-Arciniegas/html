@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+</head>
+<body>
+    <h1>Tablas en HTML</h1>
+    <hr>
+    <p>    celdas= td,   filas= tr,      tabla= table
+    </p>
+    <p>TH= encabezado</p>
+    <table border="2" width="70%" cellspacing="10" cellpadding="10" bgcolor="#F0396E" bordercolor="#6D0725" 
+    align="center">
+        <tr bgcolor="7A40B4">
+            <th colspan="2">Celda 1</th>
+           <!-- <th>Celda 2</th> -->
+            <th>Celda 3</th>
+        </tr>
+        <tr align="right" bgcolor="#CF6BA8">
+            <th>Celda 4</th>
+            <td rowspan="2">Celda 5</td>
+            <td>Celda 6</td>
+        </tr>
+        <tr align="left" bgcolor="#CF6B6B">
+            <th>Celda 7</th>
+            <!-- <td align="center">Celda 8</td> -->
+            <td align="right">Celda 9</td>
+        </tr>
+    </table>
+
+
+    <hr>
+
+    <table border="1" cellpadding="50" cellspacing="0" width="30%">
+        <tr>
+            <td colspan="3" align="center">A, B</td>
+           <!-- <td>cf</td> -->
+            <td rowspan="2" align="center">C,F </td>
+            <!-- <td>f</td> -->
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>E</td>
+          <!-- <td>c</td>  -->  
+         <!-- <td>f</td>  -->  
+        </tr>
+
+    </table>
+     <hr>
+
+    <p>TAG semantica: la primera thead, la segunda es tbody,  la tercera tfoot,</p>
+    <table border="1" width="50%" cellpadding="20">
+        <thead>
+            <tr>
+                <th>Tipo Dato A</th>
+                <th>Tipo Dato B</th>
+                <th>Tipo Dato C</th>
+            </tr>
+        </thead>
+        <tbody align="center">
+            <tr>
+                <td>A</td>
+                <td>B</td>
+                <td>C</td>
+                
+            </tr>
+            <TR>
+                <td>D</td>
+                <td>E</td>
+                <td>F</td>
+            </TR>
+            <tr>
+                <td>G</td>
+                <td>H</td>
+                <td>I</td>
+
+            </tr>
+            </tbody>
+
+
+        </tbody>
+        <tfoot align="=center">
+
+        </tfoot>
+        <caption>tipo de datos</caption>
+    </table>
+
+    <hr>
+
+    <table border="1" bgcolor="#D79797" cellspacing="0" width="50%">
+        <thead bgcolor="#CF6BA8">
+            <th>Pais</th>
+            <th>Capital</th>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Mexico</th>
+                <th>CD. de MEXICO</th>
+            </tr>
+            <tr>
+                <th>Canada</th>
+                <th>Otawa</th>
+            </tr>
+            <tr>
+                <th>Estados Unidos</th>
+                <th>Washington</th>
+            </tr>
+        </tbody>
+        <tfoot>
+        </tfoot>
+    </table>
+
+    <hr>
+    <table border="1" cellspacing="0" width="30%" cellpadding="5" bgcolor="#EED687">
+        <thead>
+            <th colspan="2">Partes de la computadora</th>
+            <!-- <th></th> -->
+        </thead>
+        <tbody>
+            <tr>
+                
+                <th bgcolor="black" rowspan="5" > 
+                    <p><font color="white">P</font></p>
+                    <p><font color="white">A</font></p>
+                    <p><font color="white">R</font></p>
+                    <p><font color="white">T</font></p>
+                    <p><font color="white">E</font></p>
+                    <p><font color="white">S</font></p>
+
+                </th>
+                <th>dispositivos de entrada</th>
+                
+            </tr>
+            <tr>
+                <!-- <th></th> -->  
+                <th>dispositiovs salida</th>
+            </tr>
+            <tr>
+               <!--  <th rowspan=>partes</th>  --> 
+                <th>CPU (Procesador)</th>
+            </tr>
+            <tr>
+                <!-- <th></th> -->
+                <th>Memoria principal</th>
+            </tr>
+            <tr>
+               <!--<th></th>--> 
+                <th>Memoria secundaria</th>
+            </tr>
+        </tbody>
+
+    </table>
+
+
+</body>
+</html>
