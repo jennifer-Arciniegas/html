@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios HTML</title>
+</head>
+<body>
+    <h1>Formularios en HTML</h1>
+    <hr>
+    
+    <form action="" method="get">
+    <fieldset> 
+        <legend>Datos Personales</legend>
+        <label for="nombre">Name</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" 
+        value="" required minlength="3" maxlength="10" size="11" autofocus ><br><br>
+
+
+        <label for="Usuario">user</label>
+        <input type="text" id="usu" name="Usuario" autofocus pattern="[A,Za-z]{3,10}" 
+        title="Debe contener de 3 a 10 caracteres ">
+        <br><br>
+        <label for="pass">Contraseña</label>
+        <input type="password" name="pass" id="pass">
+        <br><br>
+        <label for="Email">Correo electronico:</label>
+        <input type="Email" name="Email" id="Email">
+        <br><br>
+        <label for="edad">Edad:</label>
+        <input type="number" name="edad" id="edad"
+        min="18" max="50">
+        <br><br>
+        <label for="Tel">Telefono</label>
+        <input type="Tel" name="Tel" id="Tel">
+        <br><br>
+    </fieldset>
+
+
+
+    <br><br>
+    <label for="url">URL</label>
+    <input type="url" name="url" id="url" placeholder="Dirección Web">
+    <br><br>
+    <label for="fecha">Fecha</label>
+    <input type="date" name="fecha" id="fecha" value="2006-10-04">
+    <br><br>
+    <label for="hora">Hora</label>
+    <input type="time" name="hora" id="hora" value="20:30:00">
+    <br><br>
+    <!--CONTROLES-->
+    <label for="sexo">SEXO</label>
+    <input type="radio" name="sexo" id="sexo" value="Hombre"> hombre
+    <input type="radio" name="sexo" id="sexo" value="Mujer" checked> mujer
+    <input type="radio" name="sexo" id="sexo" value="Mujer"> Otro
+    <br><br>
+
+    <label for="hobbies">pasatiempos</label>
+    <input type="checkbox" name="hobbies" id="hobbies" value="programar"> programar
+    <input type="checkbox" name="hobbies" id="hobbies" value="leer"> leer
+    <input type="checkbox" name="hobbies" id="hobbies" value="deportes"> deportes
+    <br><br>
+    <label for="color">Color</label>
+    <input type="color" name="color" id="color">
+    <br><br>
+    <label for="file">Adjuntar archivo</label>
+    <input type="file" name="file" id="file">
+    <br><br>
+    <input type="button" value="clicqueame" onclick="alert('Feliz Cumpleaños')" 
+    onmouseover="alert('suavemente')">
+    <br><br>
+    <input type="image" src="img/panda.jpg" alt="Enviar" width="80px" onclick="alert('saque la lengua')">
+    <br><br>
+    <label for="browser">Navegador de preferencia</label>
+    <input type="text" name="browser" id="browser" list="browser">
+    <datalist id="browser">
+        <option value="chorme"></option>
+        <option value="firefox"></option>
+        <option value="Edge"></option>
+        <option value="safari"></option>
+        <option value="Opera"></option>
+    </datalist>
+    <br><br>
+    <label for="mes">Mes de ingreso</label>
+    <input type="month" name="mes" id="mes">
+    <br><br>
+    <label for="inten">Intencidad:</label>
+    <input type="range" name="inten" id="inten" min="0" max="50" step="2">
+
+
+    <br><br>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpiar todo">
+    <br><br>
+    <label for="comentario">comentario</label>
+    <br><br>
+    <textarea name="comentario" id="comentario" cols="40" rows="10"></textarea>
+    <br><br>
+    <label for="ciudadaNac">Ciudad de Nacimiento:</label>
+    <select name="ciudadaNac" id="ciudadaNac" multiple>
+        <option value="Bucaramanga">Bucaramanga</option>
+        <option value="Bogota" selected>Bogota</option>
+        <option value="Medellin">Medellin</option>
+        <option value="Cali">Cali</option>
+    </select>
+
+
+    <input type="hidden" name="categoria" value="backend" id ="categoria">
+
+
+
+    <br><br>
+    <input type="submit" value="Enviar">    
+
+
+</form>
+    
+</body>
+</html>
