@@ -1,8 +1,25 @@
 *{
-    color: var(--blue-mesage);
+    margin: 0px;
+    padding: 0px;
     background-color: white;
   
 }
+#general{
+    margin: auto;
+    margin-top: 20px;
+
+    width: 1300px;
+    height: 800px;
+    background-color: aqua;
+}
+#foto{
+    float: left;
+    background-color: brown;
+    width: 400px;
+    height: 300px;
+
+}
+
 h1{
     color: black;
     margin-top: 10%;
