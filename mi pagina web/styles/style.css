@@ -6,35 +6,27 @@
 }
 #general{
     margin: auto;
-    margin-top: 20px;
-
+    margin-top: 1%;
     width: 1300px;
-    height: 800px;
+    height: 900px;
     background-color: aqua;
 }
-#foto{
+#izquierdo{
     float: left;
     background-color: brown;
     width: 400px;
-    height: 300px;
+    height: 900px;
 
 }
 
-h1{
-    color: black;
-    margin-top: 10%;
-}
-#hi{
-    color: blueviolet;
-    margin-top: 10%;
-    
-}
-#par{
-    color: black;
+#foto{
+width: 100%;
+height: 30%;
+background-color: blue;
 }
 
-#IAC{
-    
-    
-    
+#personalinfo{
+    width: 100%;
+    height: 30%;
+    background-color: green;
 }
