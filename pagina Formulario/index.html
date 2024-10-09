@@ -8,35 +8,54 @@
 </head>
 <body>
     <main class="main"> 
-        <form action="" method="get">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" maxlength="50">
-            <br><br>
-            <label for="apellido">Apelido:</label>
-            <input type="text" id="apellido" name="apellido" maxlength="50">
-            <br><br>
-            <label for="sexo">Sexo:</label>
-            <select name="sexo" id="sexo" >
-                <option value="hombre">Hombre</option>
-                <option value="mujer">Mujer</option>
-                <option value="otro">Otro</option>
-            </select>
-            <br><br>
-            <label for="email">Correo Electronico:</label>
-            <input type="text" id="email" name="email">
-            <br> <br>
-            <label for="verificacion"></label>
-            <input type="radio" id="verificacion" name="verificacion" value="verificacion" checked> Deseo recibir informacion sobre novedades y ofertas
-            <br><br>
-            <label for="condiciones"></label>
-            <input type="radio" name="condiciones" id="condiciones" value="condiciones">Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre la protección de datos
-            <br><br>
-            <input  type="submit" value="enviar">
+        <section class="setion">
+            <h1>Formulario de inscripciòn</h1>
+            <form action="" method="get">
+                <fieldset class="cuadrito">
+                    <legend> Datos personales </legend>
+                    <label for="nombre"> Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" maxlength="50">
+                    <br><br>
+                    <label for="apellido">Apelido:</label>
+                    <input type="text" id="apellido" name="apellido" maxlength="50">
+                    <br><br>
+                    <label for="sexo">Sexo:</label>
+                    <select name="sexo" id="sexo" >
+                        <option value="hombre">Hombre</option>
+                        <option value="mujer">Mujer</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                    <br><br>
+                    <label for="email">Correo Electronico:</label>
+                    <input type="text" id="email" name="email">
+                    <br> <br>
+                    <label for="poblacion">Poblacion:</label>
+                    <select name="poblacion" id="poblacion">
+                        <option value="bucaramanga">Bucaramanga</option>
+                        <option value="giron">Giron</option>
+                        <option value="floridablanca">Floridablanca</option>
+                        <option value="piedecuesta">piedecuesta</option>
+                    </select>
+                    <br><br>
+                    <label for="descripcion">Descripcion:</label>
+                    <textarea name="descripcion" id="descripcion" cols="30" rows="5"></textarea>
+                    
+
+                </fieldset>
+                <br><br>
+               
+                <label for="verificacion"></label>
+                <input type="radio" id="verificacion" name="verificacion" value="verificacion" checked> Deseo recibir informacion sobre novedades y ofertas
+                <br><br>
+                <label for="condiciones"></label>
+                <input type="radio" name="condiciones" id="condiciones" value="condiciones">Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre la protección de datos
+                <br><br>
+                <input  type="submit" value="enviar">
 
 
 
-        </form>
-
+            </form>
+         </section>
     </main>
     
     
