@@ -26,7 +26,7 @@ body{
 .cuadrito{
     border-radius: 7%;
 }
-label, #condiciones {
+label, h1, input{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(110, 22, 133);
 }
