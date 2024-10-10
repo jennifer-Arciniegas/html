@@ -1,4 +1,5 @@
 body{
+    box-sizing: border-box;
     padding: 0%;
     margin: 0%;
     
@@ -11,9 +12,30 @@ body{
 }
 
 
-.sect1{
-    margin: auto;
+.cont{
+    
     width: 50%;
     padding: 10px;
     border: 1px solid green;
+    background-color: pink;
+    position: absolute;
+    top:200px;
+    left:400px;
+    align-items: center;
+}
+#img1{
+    padding: 0;
+    margin: 0;
+}
+.menu{
+    background-color: red;
+    width: 95px;
+    height: 800px;
+    position: relative;
+    left: 95%;    
+    top: 5px;
+}
+.menu h2{
+    padding: 0;
+    margin: 0;
 }
