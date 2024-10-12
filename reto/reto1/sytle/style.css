@@ -1,0 +1,61 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    background-image: url('pexels-pixabay-159400.png');
+
+}
+
+.main{
+    top: -117px;
+    left: -28px;
+    width: 1977px;
+    height: 1446px;
+   
+    
+}
+
+
+#logo{
+    width: 1878px;
+    height: 1218px;
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.cuadro{
+    width: 1500px;
+    height: 1084px;
+    padding: 6px;
+    top: 160px;
+    left:2200px;
+    position: absolute;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 67px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+#minilogo{
+    top: 197px;
+    left: 909px;
+    width: 103px;
+    height: 116px;
+}
+
+
+p{
+    font-family: Myriad Pro;
+}
+
+
+
+
+
+
