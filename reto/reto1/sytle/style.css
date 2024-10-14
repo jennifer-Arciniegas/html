@@ -7,10 +7,8 @@ body{
 }
 
 .main{
-    top: -117px;
-    left: -28px;
-    width: 1977px;
-    height: 1446px;
+   
+
    
     
 }
@@ -27,32 +25,81 @@ body{
 }
 
 .cuadro{
-    width: 1500px;
-    height: 1084px;
-    padding: 6px;
-    top: 160px;
-    left:2200px;
+    width: 936px;
+    height: 761px;
+    /*zone element   */
     position: absolute;
+    left: 492px;
+    right: 492px;
+    top: 160px;
+    bottom: 156px;
+
+    
     border: 1px solid black;
     background-color: white;
     border-radius: 67px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+ 
+    
+   
+    
 
 }
 #minilogo{
-    top: 197px;
-    left: 909px;
-    width: 103px;
-    height: 116px;
-}
+    width: 102.97px;
+    height: 115.56px;
+    /* zona de elemento*/
+    top: 37.48px;
+    left: 416.51px;
+    right: 416.51px;
+    bottom: 608px;
+    position: absolute;
 
 
-p{
-    font-family: Myriad Pro;
+
 }
+
+#titleCuadrito{
+    /*dimensions*/
+    width: 500px;
+    height: 96px;
+    /*zone element*/
+    top: 176px;
+    left: 218px;
+    right: 218px;
+    bottom: 489px;
+    position: absolute;
+    
+}
+h1 {
+    font-family: myriad-pro, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    
+
+}
+
+#paragraf1 {
+    /*dimensions*/
+    width: 600px;
+    height: 20px;
+    /*zone element*/
+    top: 295px;
+    left: 207px;
+    right: 207px;
+    bottom: 446px;
+    position: absolute;
+}
+p {
+    font-family: myriad-pro, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
 
 
 
