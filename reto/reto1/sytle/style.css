@@ -1,12 +1,13 @@
 body{
-    padding: 35px;
-    margin: 0;
+  
     background-color: black;
     background-image: url('pexels-pixabay-159400.png');
-    width: 1920px;
-    height: 1080px;
-    
-
+    top: -117px;
+    left: -28px;
+    width: 1977px;
+    height: 1446px;
+    padding: 0px;
+    margin: 0px;
 }
 
 .main{
