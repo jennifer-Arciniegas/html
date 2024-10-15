@@ -229,5 +229,25 @@ p, label {
     border: 1px solid #707070;
     border-radius: 79px;
 
-
+    /* septima pagina*/
+    .page {
+        /*dimensions*/
+        width: 1920px;
+        height: 1080px;
+        /*zone element*/
+        background-color: white;
+        position: absolute;
+        
+    }
+    #icono1 {
+        /*dimensions*/
+        width: 31px;
+        height: 31px;
+        /*zone element*/
+        top: 31px;
+        left: 188px;
+        right: 1701px;
+        bottom: 1080px;
+        position: absolute;
+    }
 }
