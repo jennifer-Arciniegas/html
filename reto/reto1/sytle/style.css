@@ -2,6 +2,7 @@ body{
   
     background-color: black;
     background-image: url('pexels-pixabay-159400.png');
+    
     top: -117px;
     left: -28px;
     width: 1977px;
@@ -14,7 +15,6 @@ body{
    
     padding: 0;
     margin: 0;
-   
     
 }
 
@@ -212,4 +212,22 @@ p, label {
     text-align: center;
 }
 
+/*quinta pagina*/
 
+.cuadrologing {
+    /*dimensions*/
+    width: 936px;
+    height: 549px;
+    /*zone element*/
+    top: 266px;
+    left: 492px;
+    right: 492;
+    bottom: 265px;
+    position: absolute;
+    /*backgound*/
+    background-color: white;
+    border: 1px solid #707070;
+    border-radius: 79px;
+
+
+}
