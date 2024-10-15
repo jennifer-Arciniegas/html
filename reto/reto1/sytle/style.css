@@ -303,3 +303,107 @@ p, label {
     bottom: 1020px;
     position: absolute;
 }
+#kario {
+    /*dimensions*/
+    width: 41.72px;
+    height: 37.37px;
+    /*zone element*/
+    top: 24.13px;
+    left: 939.14px;
+    right: 939.14px;
+    bottom: 1018.5px;
+    position: absolute;
+
+}
+#bug {
+    /*dimensions*/
+    width: 33.78px;
+    height: 38px;
+    /*zone element*/
+    top: 23.5px;
+    left: 1218px;
+    right: 668.22px;
+    bottom: 1018.5px;
+    position: absolute;
+
+}
+#reportar {
+    /*dimensions*/
+    width: 98px;
+    height: 24px;
+    /*zone element*/
+    top: 32.82px;
+    left: 1269.04px;
+    right: 557.96px;
+    bottom: 1023.18px;
+    position: absolute;
+    
+}
+#help {
+    /*dimensions*/
+    width: 34.05px;
+    height: 34.05px;
+    /*zone element*/
+    top: 27.45px;
+    left: 1489.12px;
+    right: 396.84px;
+    bottom: 1018.5px;
+    position: absolute;
+}
+#ayuda {
+    /*dimensions*/
+    width: 64px;
+    height: 24px;
+    /*zone element*/
+    top: 32.82px;
+    left: 1540.43px;
+    right: 315.57px;
+    bottom: 1023.18px;
+    position: absolute;   
+}
+
+#config {
+    /*dimensions*/
+    width: 19.04px;
+    height: 19.05px;
+    /*zone element*/
+    top: 34.73px;
+    left: 1768.98px;
+    right: 131.97px;
+    bottom: 1026.22px;
+    position: absolute;  
+
+}
+#notificaciones {
+    /*dimensions*/
+    width: 20.62px;
+    height: 20.17px;
+    /*zone element*/
+    top: 34.73px;
+    left: 1809.2px;
+    right: 90.18px;
+    bottom: 1025.1px;
+    position: absolute;  
+}
+#photo {
+    /*dimensions*/
+    width: 53px;
+    height: 53px;
+    /*zone element*/
+    top: 16px;
+    left: 1851px;
+    right: 16px;
+    bottom: 1011px;
+    position: absolute; 
+}
+#linea {
+    /*dimensions*/
+    width: 1920px;
+   
+    /*zone element*/
+    top: 81.5px;
+  
+    bottom: 998.5px;
+    position: absolute; 
+
+}
