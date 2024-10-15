@@ -11,12 +11,7 @@ body{
     margin: 0px;
 }
 
-.main{
-   
-    padding: 0;
-    margin: 0;
-    
-}
+
 
 
 #logo{
@@ -228,26 +223,83 @@ p, label {
     background-color: white;
     border: 1px solid #707070;
     border-radius: 79px;
-
-    /* septima pagina*/
-    .page {
-        /*dimensions*/
-        width: 1920px;
-        height: 1080px;
-        /*zone element*/
-        background-color: white;
-        position: absolute;
+}
+/* septima pagina*/
+.page {
+    /*dimensions*/
+    width: 1920px;
+    height: 1080px;
+    /*zone element*/
+    background-color: white;
+    position: absolute;
         
-    }
-    #icono1 {
-        /*dimensions*/
-        width: 31px;
-        height: 31px;
-        /*zone element*/
-        top: 31px;
-        left: 188px;
-        right: 1701px;
-        bottom: 1080px;
-        position: absolute;
-    }
+}
+#icono1 {
+    /*dimensions*/
+    width: 31px;
+    height: 31px;
+    /*zone element*/
+    top: 31px;
+    left: 188px;
+    right: 1701px;
+    bottom: 1080px;
+    position: absolute;
+    
+}
+
+#add {
+    /*dimensions*/
+    width: 67px;
+    height: 24px;
+    /*zone element*/
+    top: 35px;
+    left: 229px;
+    right: 1624px;
+    bottom: 1021px;
+    position: absolute;
+    
+}
+#reload {
+    /*dimensions*/
+    width: 26.85px;
+    height: 26.89px;
+    /*zone element*/
+    top: 32.06px;
+    left: 423.07px;
+    right: 1470.07px;
+    bottom: 1021.06px;
+    position: absolute;
+}
+#refres {
+   /*dimensions*/
+    width: 91px;
+    height: 24px;
+    /*zone element*/
+    top: 35px;
+    left: 459.93px;
+    right: 1369.07px;
+    bottom: 1021px;
+    position: absolute;
+}
+#iconodelete {
+    /*dimensions*/
+    width: 24.98px;
+    height: 32.11px;
+    /*zone element*/
+    top: 29.39px;
+    left: 678px;
+    right: 1217.02px;
+    bottom: 1018.5px;
+    position: absolute;
+}
+#eliminar {
+    /*dimensions*/
+    width: 81px;
+    height: 24px;
+    /*zone element*/
+    top: 36px;
+    left: 712.98px;
+    right: 1126.02px;
+    bottom: 1020px;
+    position: absolute;
 }
