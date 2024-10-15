@@ -398,12 +398,157 @@ p, label {
 }
 #linea {
     /*dimensions*/
-    width: 1920px;
-   
+    width: 1920px; 
     /*zone element*/
     top: 81.5px;
-  
     bottom: 998.5px;
     position: absolute; 
 
+}
+
+#titulo7 {
+    /*dimensions*/
+    width: 346px;
+    height: 40px;
+    /*zone element*/
+    top: 115px;
+    left: 787px;
+    right: 787px;
+    bottom: 925px;
+    position: absolute; 
+}
+
+#subtexto7 {
+    /*dimensions*/
+    width: 827px;
+    height: 24px;
+    /*zone element*/
+    top: 189px;
+    left: 526px;
+    right: 567px;
+    bottom: 867px;
+    position: absolute;     
+}
+
+#indicador7 {
+    /*dimensions*/
+    width: 95px;
+    height: 24px;
+    /*zone element*/
+    top: 271.5px;
+    left: 111px;
+    right: 1714px;
+    bottom: 784.5px;
+    position: absolute; 
+}
+#descripcion7 {
+    /*dimensions*/
+    width: 118px;
+    height: 24px;
+    /*zone element*/
+    top: 272.5px;
+    left: 379px;
+    right: 1423px;
+    bottom: 783.5px;
+    position: absolute; 
+}
+#categoria7 {
+    /*dimensions*/
+    width: 97px;
+    height: 24px;
+    /*zone element*/
+    top: 271.5px;
+    left: 629px;
+    right: 1194px;
+    bottom: 784.5px;
+    position: absolute; 
+}
+#finicio {
+    /*dimensions*/
+    width: 149px;
+    height: 24px;
+    /*zone element*/
+    top: 271.5px;
+    left: 765px;
+    right: 1006px;
+    bottom: 784.5px;
+    position: absolute;   
+}
+#fterminacion {
+    /*dimensions*/
+    width: 217px;
+    height: 24px;
+    /*zone element*/
+    top: 271.5px;
+    left: 952px;
+    right: 751px;
+    bottom: 784.5px;
+    position: absolute;       
+}
+#formula {
+    /*dimensions*/
+    width: 83px;
+    height: 24px;
+    /*zone element*/
+    top: 271.5px;
+    left: 1205px;
+    right: 632px;
+    bottom: 784.5px;
+    position: absolute;    
+}
+#frecuencia {
+    /*dimensions*/
+    width: 108px;
+    height: 24px;
+    /*zone element*/
+    top: 271.5px;
+    left: 1328px;
+    right: 484px;
+    bottom: 784.5px;
+    position: absolute; 
+}
+#cumplimiento {
+    /*dimensions*/
+    width: 144px;
+    height: 24px;
+    /*zone element*/
+    top: 271.5px;
+    left: 1475px;
+    right: 301px;
+    bottom: 784.5px;
+    position: absolute; 
+}
+#area {
+    /*dimensions*/
+    width: 46px;
+    height: 24px;
+    /*zone element*/
+    top: 271.5px;
+    left: 1682px;
+    right: 192px;
+    bottom: 784.5px;
+    position: absolute; 
+
+}
+#reg1 {
+    /*dimensions*/
+    width: 1700px;
+    height: 81px;
+    /*zone element*/
+    top: 314px;
+    left: 89.14px;
+    right: 130.86px;
+    bottom: 685px;
+    position: absolute; 
+}
+#reg2 {
+    /*dimensions*/
+    width: 1700px;
+    height: 81px;
+    /*zone element*/
+    top: 416.5px;
+    left: 89.14px;
+    right: 130.86px;
+    bottom: 582.5px;
+    position: absolute;   
 }
