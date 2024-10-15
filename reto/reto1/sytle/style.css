@@ -541,6 +541,17 @@ p, label {
     bottom: 685px;
     position: absolute; 
 }
+#simbol1 {
+    /*dimensions*/
+    width: 36px;
+    height: 31.36px;
+    /*zone element*/
+    top: 340.82px;
+    left: 1800.75px;
+    right: 83.25px;
+    bottom: 707.82px;
+    position: absolute; 
+}
 #reg2 {
     /*dimensions*/
     width: 1700px;
@@ -551,4 +562,114 @@ p, label {
     right: 130.86px;
     bottom: 582.5px;
     position: absolute;   
+}
+#simbol2 {
+    /*dimensions*/
+    width: 36px;
+    height: 31.36px;
+    /*zone element*/
+    top: 442.82px;
+    left: 1800.75px;
+    right: 83.25px;
+    bottom: 605.82px;
+    position: absolute; 
+}
+#reg3 {
+    /*dimensions*/
+    width: 1700px;
+    height: 81px;
+    /*zone element*/
+    top: 519.5px;
+    left: 89.14px;
+    right: 130.86px;
+    bottom: 479.5px;
+    position: absolute; 
+}
+#simbol3 {
+    /*dimensions*/
+    width: 36px;
+    height: 31.36px;
+    /*zone element*/
+    top: 544.82px;
+    left: 1801.51px;
+    right: 82.49px;
+    bottom: 503.82px;
+    position: absolute; 
+}
+#reg4 {
+    /*dimensions*/
+    width: 1700px;
+    height: 81px;
+    /*zone element*/
+    top: 622px;
+    left: 89.14px;
+    right: 130.86px;
+    bottom: 377px;
+    position: absolute; 
+}
+#simbol4 {
+    /*dimensions*/
+    width: 36px;
+    height: 31.36px;
+    /*zone element*/
+    top: 646.82px;
+    left: 1801.51px;
+    right: 82.49px;
+    bottom: 401.82px;
+    position: absolute;    
+}
+#reg5 {
+    /*dimensions*/
+    width: 1700px;
+    height: 81px;
+    /*zone element*/
+    top: 724px;
+    left: 89.14px;
+    right: 130.86px;
+    bottom: 275px;
+    position: absolute;
+}
+#simbol5 {
+    /*dimensions*/
+    width: 36px;
+    height: 31.36px;
+    /*zone element*/
+    top: 748.82px;
+    left: 1801.51px;
+    right: 82.49px;
+    bottom: 299.82px;
+    position: absolute; 
+}
+#reg6 {
+    /*dimensions*/
+    width: 1700px;
+    height: 81px;
+    /*zone element*/
+    top: 822.5px;
+    left: 89.14px;
+    right: 130.86px;
+    bottom: 176.5px;
+    position: absolute;
+}
+#simbol6 {
+    /*dimensions*/
+    width: 36px;
+    height: 31.36px;
+    /*zone element*/
+    top: 847.32px;
+    left: 1801.51px;
+    right: 82.49px;
+    bottom: 201.32px;
+    position: absolute; 
+}
+#boton7 {
+    /*dimensions*/
+    width: 336px;
+    height: 70px;
+    /*zone element*/
+    top: 937px;
+    left: 792px;
+    right: 792px;
+    bottom: 73px;
+    position: absolute; 
 }
