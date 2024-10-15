@@ -2,17 +2,20 @@ body{
   
     background-color: black;
     background-image: url('pexels-pixabay-159400.png');
-    
+
+}
+
+
+.page1 {
+    /* Layout Properties */
     top: -117px;
     left: -28px;
     width: 1977px;
     height: 1446px;
-    padding: 0px;
-    margin: 0px;
+   position: absolute;
+   
+ 
 }
-
-
-
 
 #logo{
     width: 1878px;
