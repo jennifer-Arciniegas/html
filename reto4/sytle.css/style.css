@@ -1,0 +1,72 @@
+.menu {
+    /*dimensions*/
+    display: inline;
+    height: 20px;
+    columns: 3;
+    padding: 20px;
+    /*zone element*/
+    position: absolute;
+    border: 1px solid gray;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    background-color: plum;
+
+}
+#list{
+    color: white;
+}
+#list1{
+    color: white;
+    background-color: blue;
+    
+}
+/*pagina 2  --------------------------------------*/
+header{
+    /*dimensions*/
+    height: 400px;
+    width: 100%;
+    /*zone element*/
+    background-color: brown;
+    position: absolute;
+
+}
+#foto{
+    /*dimensions*/
+    height: 200px;
+    width: 100%;
+    /*zone element*/
+    position: absolute;
+    top: 300px;
+    background-color: orangered;
+}
+#imagen{
+    /*dimensions*/
+    height: 200px;
+    width: 200px;
+    /*zone element*/
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    background-color: gray;
+}
+#descripsion {
+    /*dimensions*/
+    height: 300px;
+    width: 100%;
+    /*zone element*/
+    position: absolute;
+    top: 500px;
+    background-color: yellow;
+
+
+}
+footer{
+    /*dimensions*/
+    height: 200px;
+    width: 100%;
+    /*zone element*/
+    position: absolute;
+    top: 800px;
+    background-color: blue;
+}
