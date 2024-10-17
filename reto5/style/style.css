@@ -1,0 +1,46 @@
+.fondo{
+width: 400px;
+height: 500px;
+position: relative;
+background-color: black;
+
+
+}
+.primer {
+    width: 300px;
+    height: 30px;
+    position: absolute;
+    background-color: rgb(83, 15, 241);
+    left: 10%;
+
+}
+
+#segundo {
+    width: 300in;
+    height: 30in;
+    position: relative;
+    background-color: rgb(241, 15, 102);
+    left: 10%;
+    top: 300in;
+}
+
+.element {
+    background: blue;
+    font-size: 32px;
+    width: 2em;
+    height: 2em;
+    color: white;
+}
+
+:root {
+    font-size: 22px;
+}
+
+.element1{
+    background: indigo;
+    color: #eee;
+    font-family: Victor mono, monospace;
+    font-size: 2em;
+    height: 2em;
+    
+}
