@@ -17,9 +17,13 @@ body{
     background-color: gray;
 }
 .caja {
-    
+    position: relative;
+    width: 90%;
+    height: 90%;
+    border: 1px solid salmon;
+    flex-direction: column;
 }
-div{
+cajita {
     position: relative;
     width: 10%;
     height: 40%;
