@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    background-color: salmon;
+   
+
+    
+}
+div {
+    background-color: aquamarine;
+    width: 13%;
+    height: auto;
+    position: relative;
+    margin: 0.4%
+    
+
+}
+div img {
+    align-items: center;
+    margin-left: 5%;
+}
