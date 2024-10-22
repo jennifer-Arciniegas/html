@@ -1,5 +1,59 @@
-.texto {
-    background-color: rgb(12, 12, 100);
-    color: white;
+
+.elements {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    height: 40vh;
+    width: 90vw;
+    gap: 5px;
+    margin-top: 4%;
+}
+
+[class*="icon-"] {
+    background-color: rgb(80, 80, 236);
+    border-radius: 99%;
+    justify-content: center;
+    width: 10vw;
+    height: 20vh;
+    padding: 20%;
     
+    
+}
+.texto {
+    background-color: rgb(12, 12, 24);
+    color: white;
+    margin: 50px;
+    padding: 5px;
+    border-radius: 5%;
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+    text-align: center;
+    
+    
+}
+.amarillo-vacio{
+    grid-column-start: 1fr;
+    background-color: rgb(209, 155, 75);
+
+}
+.bocina {
+    grid-column-end: 5;
+    background-color: gray;
+
+
+}
+.bicicleta {
+    grid-column-start: 3;
+    grid-row: 2;
+    background-color: rgb(46, 37, 37);
+    
+}
+.bug {
+    grid-column-start: 4;
+    grid-row: 2;
+    background-color: gray;
+}
+.food {
+    grid-row: 4;
+    grid-column: 1;
 }
