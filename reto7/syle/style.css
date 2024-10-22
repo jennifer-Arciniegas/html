@@ -20,6 +20,7 @@ main {
 
 }
 
+
 h1{
     margin-bottom: 0;
 }
@@ -60,4 +61,38 @@ h1{
     background-color: salmon;
     order: 4;
     outline: 1px solid black;
+}
+
+[class*="caja-"] {
+    float: left;
+    padding: 15px;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .caja-azul{
+        order: 1;
+    }
+    .caja-salmon {
+        order: 2;
+    }
+    .caja-verde {
+        order: 3;
+    }
+    .caja-beige {
+        order: 4;
+    }
+
+}
+@media (min-width: 768px) {
+    .caja-azul{
+        order: 4;
+    }
+    .caja-salmon {
+        order: 3;
+    }
+    .caja-verde {
+        order: 2;
+    }
+    .caja-beige {
+        order: 1;
+    }
 }
