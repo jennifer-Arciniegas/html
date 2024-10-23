@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body {
+            display: grid;
+            grid-template-columns: repeat(3 / 33.3%);
+            gap: 5px;
+            grid-template-rows: repeat(4 / 25%);
+           
+        }
+        div {
+            padding: 30px;
+        }
+
+        .orange-left {
+            background-color: rgb(202, 81, 1);
+            grid-column: 1 ;
+            grid-row: 1 / 4;
+            padding: 40px;
+        
+
+        }
+        .purple-left {
+            background-color: rgb(87, 5, 43);
+            grid-row: 3 / 4;
+            grid-column: 1;
+
+
+        }
+
+
+        .orange-center {
+            background-color: rgb(202, 81, 1);
+            grid-column: 2;
+            grid-row: 1 / 4 ;
+            
+
+
+        }
+        .purple-center {
+            background-color: rgb(87, 5, 43);
+            grid-column: 2;
+            grid-row: 3 / 4;
+   
+        }
+
+        .orange-right {
+            background-color: rgb(202, 81, 1);
+            
+
+
+        }
+
+       
+
+    </style>
+    <title>tercero</title>
+</head>
+<body>
+    <div class="orange-left"></div>
+    <div class="purple-left"></div>
+    
+    <div class="orange-center"></div>
+    <div class="purple-center"></div>
+
+    
+
+    <div class="green"></div>
+    <div class="purple"></div>
+</body>
+</html>

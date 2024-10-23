@@ -1,0 +1,32 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+main {
+    display: grid;
+    grid-template-columns: 3;
+}
+div {
+    margin: 10px;
+    height: 100vh;
+
+}
+.orange {
+    background-color: rgb(202, 81, 1);
+    grid-column-start: 1;
+  
+
+}
+.green {
+    background-color: rgb(14, 100, 79);
+    grid-column-start: 2;
+    
+   
+}
+.purple{
+    background-color: rgb(87, 5, 43);
+    grid-column-start: 3;
+    
+    
+}
+
