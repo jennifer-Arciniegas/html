@@ -4,6 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>numero 4</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+            grid-template-rows: 1fr 1fr 1fr;
+            gap: 20px;
+           
+            
+        }
+        [class*="naranja-"] {
+            background-color: orangered;
+            padding: 90px;
+        }
+        [class*="verde-"]{
+            background-color:rgb(14, 100, 79);
+        }
+        [class*="tinto-"] {
+            background-color: rgb(83, 21, 21);
+        }
+        .naranja-izquierda {
+            grid-column: 1 / 3;
+            grid-row: 1;
+        }
+        .naranja-derecha {
+            grid-column: 3 ;
+            grid-row: 1;
+        }
+        .verde-izquierda {
+            grid-column: 2 / 4;
+            grid-row: 2;
+        }
+        .verde-derecha {
+            grid-column: 1;
+            grid-row: 2;
+        }
+        .tinto-izquierda {
+            grid-row: 3;
+            grid-column: 1 / 3;
+        }
+        .tinto-derech {
+            grid-row: 3;
+            grid-column: 3;
+        }
+
+    </style>
 </head>
 <body>
     <div class="naranja-izquierda"></div>
