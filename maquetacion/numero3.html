@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body {
+            display: grid;
+            grid-template-columns: 32% 32% 32%;
+            grid-template-rows: 1fr 1fr 1fr 1fr 2fr;
+            gap: 20px;
+        }
+        [class*="tinto-"] {
+            background-color: rgb(87, 5, 43);
+        }
+        [class*="naranja-"]{
+            background-color: orangered;
+            padding: 90px;
+        }
+        .naranja-izquierda {
+            grid-column: 1;
+            grid-row: 1 / 5;
+        }
+        .tinto-izquierda {
+            grid-row: 5 / 6;
+            grid-column: 1;
+        }
+        .naranja-medio {
+            grid-column: 2;
+            grid-row: 1  / 3;
+        }
+        .tinto-medio {
+            grid-column: 2;
+            grid-row: 3 / 6;
+        }
+        .verde-derecha {
+            background-color:rgb(14, 100, 79);
+            grid-row: 1 / 5;
+        }
+        .tinto-derecha {
+            grid-row: 5 / 6;
+            grid-column: 3;
+        }
+
+    </style>
+    <title>numero3</title>
+</head>
+<body>
+    <div class="naranja-izquierda"></div>
+    <div class="naranja-medio"></div>
+    <div class="verde-derecha"></div>
+    <div class="tinto-izquierda"></div>
+    <div class="tinto-medio"></div>
+    <div class="tinto-derecha"></div>
+</body>
+</html>
